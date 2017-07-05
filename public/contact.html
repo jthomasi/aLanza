@@ -5,6 +5,7 @@
 	<title>Contact Anthony</title>
 	
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="./style/style.css">
 
 </head>
@@ -14,22 +15,44 @@
 
 		<div class="row">
 
-			<div class="col-sm-2">
+			<div class="col-sm-2 navcolumn">
 
-				<h2>Logo Here</h2>
+				<h2 id="logo">Logo Here</h2>
 				
-				<ul class="nav nav-pills nav-stacked">
-					<li role="presentation"><a href="index.html">Home</a></li>
-				    <li role="presentation"><a href="studio.html">Studio</a></li>
-				    <li role="presentation"><a href="about.html">About</a></li>
-				    <li role="presentation"><a href="contact.html">Contact</a></li>
+				<ul class="nav nav-pills nav-stacked" id="navbar">
+					<li id="nav-options" role="presentation"><a href="index.html">Home</a></li>
+				    <li id="nav-options" role="presentation"><a href="studio.html">Studio</a></li>
+				    <li id="nav-options" role="presentation"><a href="about.html">About</a></li>
+				    <li id="nav-options last" role="presentation"><a href="contact.html">Contact</a></li>
 				</ul>
 
+			</div>
+
+			<div id="meat" class="col-md-8">
+				<h2>Contact Page</h2>
+
+				<div id="title">
+					<form>
+
+						<h3>Reach Out</h3>
+						
+						<h4>Name</h4>
+						<input type="text" name="first" placeholder="First">  <input type="text" name="last" placeholder="Last">
+
+						<h4>Email</h4>
+						<input id="email" type="text" name="email" placeholder="test@test.com">
+
+						<button class="btn">Submit</button>
+
+					</form>
+				</div>
 			</div>
 
 		</div>
 
 	</div>
+
+	<footer>&copy; Copyright 2017 Jesse Thomas</footer>
 
 </body>
 </html>
