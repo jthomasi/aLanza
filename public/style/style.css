@@ -29,12 +29,38 @@ footer {
 	text-align: center;
 }
 
+footer .studio-footer {
+
+}
+
 #welcome {
 	margin-top: 150px;
 }
 
+.welcome-page {
+	position: relative;
+	margin-left: 9%;
+}
+
+.responsive-image {
+    height: 75%; 
+    width: 75%; 
+}
+
 .navcolumn {
 	height: 100vh;
+}
+
+@media screen and (max-width: 240px) {
+	
+	.welcome-page {
+		position: relative;
+		margin-top: 16%;
+		margin-bottom: 5%;
+		margin-right: 20%;
+		margin-left: 19%;
+	}
+
 }
 
 @media screen and (max-width: 768px) {
@@ -69,6 +95,62 @@ footer {
 
 	#title {
 		margin-top: 50px;
+	}
+
+	.welcome-page {
+		position: relative;
+		margin-top: 16%;
+		margin-bottom: 5%;
+		margin-right: 20%;
+		margin-left: 19%;
+	}
+
+}
+
+@media screen and (min-width: 1250px) {
+	
+	.welcome-page {
+		position: relative;
+		margin-top: 16%;
+		margin-bottom: 5%;
+		margin-right: 20%;
+		margin-left: 33%;
+	}
+
+}
+
+@media screen and (min-width: 1450px) {
+	
+	.welcome-page {
+		position: relative;
+		margin-top: 16%;
+		margin-bottom: 5%;
+		margin-right: 20%;
+		margin-left: 35%;
+	}
+
+}
+
+@media screen and (min-width: 1600px) {
+	
+	.welcome-page {
+		position: relative;
+		margin-top: 16%;
+		margin-bottom: 5%;
+		margin-right: 20%;
+		margin-left: 38%;
+	}
+
+}
+
+@media screen and (min-width: 2000px) {
+	
+	.welcome-page {
+		position: relative;
+		margin-top: 16%;
+		margin-bottom: 5%;
+		margin-right: 20%;
+		margin-left: 41%;
 	}
 
 }
