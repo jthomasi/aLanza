@@ -45,7 +45,7 @@ footer .studio-footer {
 
 .responsive-image {
     height: 75%; 
-	width: 21%; 
+	width: 33%; 
 	margin-top: 10%;
 }
 
@@ -63,6 +63,39 @@ footer .studio-footer {
 
 #page-logo {
 	margin-bottom: 10%;
+}
+
+#navbar {
+	font-size: 18px;
+	padding-left: 22px;
+}
+
+#contactTitle {
+	padding-left: 50px;
+}
+
+#insideTitle {
+	margin: 3% 8% 0% 7%;
+	border-width: 1px;
+	border-style: solid;
+	border-color: grey;
+}
+
+#contactForm {
+	padding-left: 15px;
+	padding-bottom: 23px;
+}
+
+#homeImg {
+	margin-left: 55px;
+}
+
+#aboutStuff {
+	margin-left: 55px;
+}
+
+#studioStuff {
+	margin-left: 45px;
 }
 
 @media screen and (max-width: 991px) {
@@ -89,6 +122,14 @@ footer .studio-footer {
 	    border-right-style: none;
 	    border-bottom-style: solid;
 		border-left-style: none;
+		font-size: 45px;
+		padding-left: 0px;
+	}
+
+	.responsive-image {
+		height: 75%;
+		width: 84%;
+		margin-top: 46%;
 	}
 
 	.navcolumn {
@@ -114,6 +155,27 @@ footer .studio-footer {
 
 	#page-logo {
 		margin-bottom: 0;
+	}
+
+	.enter-btn {
+		background-color: white;
+		border-width: 1px;
+		border-top-style: solid;
+		border-color: grey;
+		margin-top: 2%;
+		font-size: 66px;
+	}
+
+	#homeImg {
+		margin-left: 0px;
+	}
+
+	#aboutStuff {
+		margin-left: 0px;
+	}
+
+	#studioStuff {
+		margin-left: 0px;
 	}
 
 }
