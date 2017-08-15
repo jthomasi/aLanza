@@ -17,13 +17,13 @@ h1 {
 }
 
 footer {
-	position: absolute;
+	position: relative;
 	right: 0;
 	bottom: 0;
 	left: 0;
 	padding: 1rem;
+	margin: 0;
 	text-align: center;
-	margin-top: 10%;
 }
 
 #welcome {
@@ -37,7 +37,7 @@ footer {
 
 .responsive-image {
     height: 75%; 
-	width: 33%; 
+	width: 22%; 
 	margin-top: 9%;
 }
 
@@ -51,6 +51,10 @@ footer {
 	border-top-style: solid;
 	border-color: grey;
 	margin-top: 2%;
+}
+
+.nav-contact {
+	margin-top: 10px;
 }
 
 #page-logo {
@@ -202,13 +206,13 @@ footer {
 	}
 
 	footer {
-		position: absolute;
+		position: relative;
 		right: 0;
 		bottom: 0;
 		left: 0;
 		padding: 1rem;
 		text-align: center;
-		margin-top: 10%;
+		margin-top: 3%;
 		font-size: 45px;
 	}
 
